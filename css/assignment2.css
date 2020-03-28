@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+/* body of the webpage */
+body{
+	font-family:Verdana;
+	color:white;
+	text-align: center;
+	background-image: url("../images/uni.jpg");  /* image taken from google - https://www.google.co.uk/search?rlz=1C1GGRV_enGB774GB774&biw=1920&bih=949&tbm=isch&sa=1&ei=PSApWojAFcHsUK_xrfAF&q=university+of+essex+pics&oq=university+of+essex+pics&gs_l=psy-ab.3...23857.24555.0.24628.5.5.0.0.0.0.84.351.5.5.0....0...1c.1.64.psy-ab..0.3.207...0j0i67k1j0i24k1.0.Gy3Isw_YU3c#imgrc=OfPgSUgOanf6wM:*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+/* to change h1 */
+.header h1{
+	background-color:#800000;
+	color: white;
+	padding:15px;
+} 
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menuitem {
+  background-color:#800000;
+  padding:8px;
+  margin-top:7px;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:#800000;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+  
